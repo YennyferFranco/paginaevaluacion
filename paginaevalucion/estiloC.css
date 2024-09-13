@@ -1,0 +1,108 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-color: rgb(210, 248, 248);
+}
+
+header {
+    background: #000000;
+    color:  #7bf8d9;;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.curso {
+    background-color: rgba(241, 241, 241, 0.5);
+    box-shadow: inset -5px -5px rgb(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.curso:hover {
+    transform: scale(1.05);
+}
+
+.curso img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h2 {
+    color: #000000;
+}
+
+button {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+label.inscribir {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input.toggle {
+    display: none;
+}
+
+.mensaje {
+    display: none;
+    color: green;
+    margin-left: 10px;
+}
+
+input.toggle:checked + span + .mensaje {
+    display: inline;
+}
+
+
+
+
+.footer {
+    background-image: url(img/fondof.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
